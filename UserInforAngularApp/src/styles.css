@@ -1,0 +1,21 @@
+/* .fileupload-wrapper.standalone {
+    padding: 0px 0px !important;
+} */
+
+.header.is-personalizable {
+    background-color: #005cbf;
+    /* background-color: #0072ED; */
+    border-bottom: 1px solid transparent;
+}
+
+.header.is-personalizable .page-title {
+    color: #ffffff;
+}
+
+.header.is-personalizable button:not(:disabled), .header.is-personalizable button:not(:disabled):not(.close) .icon, .header.is-personalizable button:not(:disabled) .app-header.icon > span, .subheader.is-personalizable button:not(:disabled):not(.searchfield-category-button), .subheader.is-personalizable button:not(:disabled):not(.searchfield-category-button) .icon, .subheader.is-personalizable button:not(:disabled):not(.searchfield-category-button) .app-header.icon > span, .is-personalizable .personalize-subheader button:not(:disabled), .is-personalizable .personalize-subheader button:not(:disabled):not(.close):not(.notification-close) .icon, .is-personalizable .personalize-subheader button:not(:disabled):not(.close):not(.notification-close) > span, .is-personalizable .personalize-subheader button:not(:disabled) .app-header.icon > span, .tab-container.module-tabs.is-personalizable .toolbar div:is(.more) [class^='btn']:not(.btn-menu) .icon {
+    color: #ffffff !important;
+}
+
+.header .toolbar [class^='btn']:hover:not(.go-button):not(.close):not(.searchfield-category-button), .header .btn-icon:hover:not([disabled]) {
+    background-color: rgba(0, 0, 0, 0.10) !important;
+}
