@@ -9,6 +9,8 @@ body{
 #left-container{
     width: 50%;
     height: auto;
+    display: flex;
+    flex-direction: column;
 }
 #right-container{
     width: 50%;
@@ -89,4 +91,33 @@ svg{
 }
 #meta{    
     text-align: center;
+}
+
+.text-c{
+    color: white;
+    text-align: center;
+    font-size: 2.8vw;
+    font-family: 'Inter', sans-serif;
+}
+
+#head2{
+    color:red;
+}
+.svg_1{
+    width: 12%;
+    height: auto;
+    margin: 35px 0px 0px 28px;
+    color: tomato;
+    
+}
+
+#head1{
+    margin: 15px 0px 0px 55px;
+}
+
+.svg_2{
+    width: 60%;
+    height: auto;
+    margin: -20px 0px 0px 120px;
+
 }
