@@ -8,14 +8,14 @@ body{
 }
 #left-container{
     width: 50%;
-    border: 1px solid black;
-    height: 100vh;
+    height: auto;
 }
 #right-container{
     width: 50%;
-    border: 1px solid black;
-    height: 100vh;
-    background-color: #074B6A;
+    height: auto;
+    background-color: #081f2a;
+    border-left: 2px solid #404e5b;
+    padding-bottom: 95px;
 }
 .form-container{
     display: flex;
@@ -25,19 +25,26 @@ body{
 h3{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
+    margin-top: 102px;
 }
 
 input{
    padding : 15px 0px 15px 10px;
    margin: 0px 0px 10px 0px;
    border-radius: 15px;
-   border: 1px solid lightgray;
+   border: 0.5px solid #404e5b;
    font-size: 17px;
     background-color: transparent;
+    color: white;
 }
+input::placeholder{
+    color: rgb(152, 156, 159);
+    font-size: 15px;
+}
+
 .button-common{
     border-radius: 15px;
-   border: 1px solid lightgray;
+    border: 1px solid #404e5b;
    font-size: 17px;
    height: 42px;  
     background-color: transparent;
@@ -46,6 +53,8 @@ input{
 
 #login-button{
     margin:10px 0px 20px 0px;
+    background-color: rgb(38, 146, 241);
+    border: 1px solid rgb(38, 146, 241);
 }
 
 .forgot-password{
@@ -60,4 +69,24 @@ input{
 #facebook-login-button{
     margin-bottom: 10px;
     color: white;
+    border: 0.5px solid #404e5b;
+}
+#create-account-button{
+    border: 1px solid rgb(38, 146, 241);
+    color: rgb(38, 146, 241);
+}
+
+svg{
+
+    color:  rgb(38, 146, 241);
+    padding: 0px 5px 0px 0px
+}
+
+#meta-logo{
+    width: 60px;
+    height: auto;
+    margin-top: 30px;
+}
+#meta{    
+    text-align: center;
 }
