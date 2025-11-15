@@ -1,0 +1,92 @@
+.container{
+    display: flex;
+    flex-direction: row;
+}
+body{
+    background-color: #f2f4f7;
+}
+#left{
+    margin: auto;
+    width: 60%;
+    text-align: left;
+}
+.logo{
+    margin: 15px 0px 0px 120px;
+    width: 325px;
+    height: auto;
+}
+
+h2{
+    margin: -5px 0px 0px 150px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 500px;
+}
+
+#right{
+    width: 40%;
+}
+
+.contact-form {
+    display:flex;
+    flex-direction: column;
+    width: 70%;
+    border: 2px solid whitesmoke;
+    padding: 15px ;
+    margin-left: 10px;
+    background-color: white;
+    margin-top: 110px;
+    border-radius: 15px;
+    box-shadow: -1px 2px 22px -1px lightgray;
+}
+
+.link{
+    color:#1877f2;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: none;
+}
+.create-new-acc{
+    background-color: #1bbb42;
+    text-align: center;
+    width: 55%;
+    margin-left: 85px;
+    margin-bottom: 10px;
+    height: 10%;
+    padding: 12px 8px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-weight: bolder;
+    color:white;
+    font-size: large;
+}
+.button{
+    background-color: #1877f2;
+    text-align: center;
+    height: 10%;
+    padding: 12px 8px;
+    color:white;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    font-weight: bold;
+    font-size: large;
+}
+input{
+    margin-bottom: 12px;
+    height: 10%;
+    padding: 18px 12px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    color: #1d2129;
+    font-size: 16px;
+}
+
+hr{
+    border: 0.5px solid lightgray;
+    width: 100%;
+    margin: 25px 0px 25px 0px;
+}
