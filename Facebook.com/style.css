@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
 }
+
 body{
     background-color: #f2f4f7;
 }
@@ -43,10 +44,38 @@ h2{
 }
 
 .link{
-    color:#1877f2;
+    color:#0866ff;
     text-align: center;
-    font-weight: lighter;
+    font-weight: 500;
     text-decoration: none;
+    font-size: 14px;
+}
+.link2{
+     margin: 30px 0px 0px 50px;
+     text-decoration: none;
+     color: black;
+     font-weight: bolder;
+     font-size: small;
+     font-family: SFProText-Regular,Helvetica,Arial,sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.button:hover{
+    background-color: #166fe5;
+}
+.create-new-acc:hover{
+    background-color: #17a837;
+}
+
+
+
+p{
+    margin:30px 0px 0px 2px;
+    font-size: small;
+    font-family: SFProText-Regular,Helvetica,Arial,sans-serif;
 }
 .create-new-acc{
     background-color: #1bbb42;
