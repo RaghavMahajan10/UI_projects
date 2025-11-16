@@ -66,16 +66,25 @@ input::placeholder{
     margin-bottom: 67px;
 }
 .forgot-password:hover{
-    background-color: grey;
+    background-color: #404e5b;
 }
 #facebook-login-button{
     margin-bottom: 10px;
     color: white;
     border: 0.5px solid #404e5b;
 }
+#facebook-login-button:hover{
+    background-color: #404e5b;
+}
+
+
 #create-account-button{
     border: 1px solid rgb(38, 146, 241);
     color: rgb(38, 146, 241);
+}
+
+#create-account-button:hover{
+    background-color: #404e5b;
 }
 
 svg{
@@ -98,6 +107,7 @@ svg{
     text-align: center;
     font-size: 2.8vw;
     font-family: 'Inter', sans-serif;
+    line-height: 65px;
 }
 
 #head2{
@@ -120,4 +130,7 @@ svg{
     height: auto;
     margin: -20px 0px 0px 120px;
 
+}
+input:hover{
+ border: 0.5px solid white;   
 }
