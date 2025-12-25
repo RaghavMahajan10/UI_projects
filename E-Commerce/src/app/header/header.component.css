@@ -1,0 +1,50 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+nav h1{
+    color: blueviolet;
+    margin:0;
+    font-size: 48px;
+}
+
+#search{
+margin: 10px 0px 0px 0px;
+}
+#search input{
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding: 5px;
+}
+#search button{
+    height: 42px;
+    border-radius: 5px;
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 0px 10px 0px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}   
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-right: 20px;
+}
+
+nav li{
+    font-size: 25px;
+    padding: 2px 15px 0px 15px;
+
+}
+
+nav li a{
+    text-decoration: none;
+    font-weight: bold;
+}
