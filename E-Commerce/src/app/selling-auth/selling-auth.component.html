@@ -1,0 +1,28 @@
+<div class="seller-auth">
+  <div class="sign-up">
+    <h2>Seller Sign Up</h2>
+    <form [formGroup]="form" (ngSubmit)="signUp(form.value)">
+        <input type="text" placeholder="Name" formControlName="name">
+        @if (nameControl.touched && nameControl.errors?.['required']) {
+          <span id="warning">Name is required</span>
+        }
+        <input type="email" placeholder="Email" formControlName="email">
+        @if(emailControl.touched && emailControl.errors?.['email']){
+          <span id="warning">Please enter a valid email address</span>
+        }
+        @else if(emailControl.touched && emailControl.errors?.['required']){
+          <span id="warning">Email is required</span>
+        }
+        <input type="password" placeholder="Password" formControlName="password">
+        @if(passwordControl.touched && passwordControl.errors?.['passwordStrength']){
+          <span id="warning">Password must be 8-16 characters with uppercase, <br>lowercase, number, and special character</span>
+        }
+        <input type="password" placeholder="Re-enter Password" formControlName="repassword">
+        @if(repasswordControl.touched && repasswordControl.errors?.['passwordMismatch']){
+          <span id="warning">Passwords do not match</span>
+        }
+        <button>Sign Up</button>
+        <button id="login" type="button" (click)="openLogin()">Login</button>
+    </form>
+  </div>
+</div>
