@@ -10,4 +10,5 @@ export const routes: Routes = [
     {path:'seller-auth',component:SellingAuthComponent},
     {path:'seller-home',component:SellerHomeComponent,canActivate:[sellingAuthGuard]},
     {path:'seller-login',component:SellerLoginComponent},
+    {}
 ];

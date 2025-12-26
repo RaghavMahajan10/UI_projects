@@ -20,9 +20,9 @@ form input{
     margin-left: 37%;
 }
 form button{
-    width: 10%;
+    width: 16%;
     padding: 10px 0px 10px 0px;
-    margin-left: 47%;
+    margin-left: 44%;
     background-color: blue;
     color: white;
     border: none;
@@ -37,6 +37,14 @@ form button{
     margin-bottom: 20px;
 }
 #login{
-    margin-left: 58%;
-    margin-top: -41px;
+    margin-left: 45%;
+    margin-top: 10px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: lighter;
+}
+#login a{
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
 }

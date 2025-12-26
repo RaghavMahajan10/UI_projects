@@ -2,9 +2,16 @@
   <div class="sign-up">
     <h2>Seller Sign In</h2>
     <form [formGroup]="form" (ngSubmit)="signIn(form.value)">
-        <input type="email" placeholder="Email" formControlName="email">
-        <input type="password" placeholder="Password" formControlName="password">
-        <button>Sign In</button>
+      <input type="email" placeholder="Email" formControlName="email" />
+      <input
+        type="password"
+        placeholder="Password"
+        formControlName="password"
+      />
+      @if(errorMsg){
+      <div style="color: red; margin-top: 5px; margin-bottom:15px; margin-left: 37%">{{ errorMsg }}</div>
+      }
+      <button>Sign In</button>
     </form>
   </div>
 </div>

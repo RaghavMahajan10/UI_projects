@@ -19,13 +19,16 @@ export class SellerLoginComponent {
 
   constructor(private sellerService:SellerService,private router: Router){}
 
-  signIn(data:seller){
-    if (this.sellerService.loginSeller(data)) {
-      alert("Login Failed");
-    } else {
-      alert("Login Successful");
-      this.router.navigate(['/seller-home']);
-    }
+  errorMsg:string='';
+  ngOnInit(){
+    this.sellerService.reloadSeller();
   }
-
+  signIn(data:seller){
+    this.sellerService.loginSeller(data);
+    this.sellerService.result.subscribe((res)=>{
+      if(!res){
+        this.errorMsg="Please enter valid credentials"
+      }     
+    });
+  }
 }

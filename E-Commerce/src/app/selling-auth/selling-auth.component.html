@@ -21,8 +21,9 @@
         @if(repasswordControl.touched && repasswordControl.errors?.['passwordMismatch']){
           <span id="warning">Passwords do not match</span>
         }
-        <button>Sign Up</button>
-        <button id="login" type="button" (click)="openLogin()">Login</button>
+        <button type="submit" [disabled]="!form.valid">Sign Up</button>
+        <div id="login"><a (click)="openLogin()">Already have an account?</a></div>
+        <!-- <button id="login" type="button" (click)="openLogin()">Login</button> -->
     </form>
   </div>
 </div>
