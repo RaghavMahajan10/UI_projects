@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { BehaviorSubject, map, Observable } from 'rxjs';
-import { seller } from '../data-type';
+import { product, seller } from '../data-type';
 import { Router } from '@angular/router';
 @Injectable({
   providedIn: 'root',
@@ -65,5 +65,11 @@ export class SellerService {
     });
   }
 
+  addproduct(data:product){
+    return this.http.post('http://localhost:3000/products',data);
+  }
 
+  getProducts(){
+    return this.http.get<product[]>('http://localhost:3000/products');
+  }
 }

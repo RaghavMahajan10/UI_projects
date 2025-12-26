@@ -1,1 +1,18 @@
-<p>seller-home works!</p>
+<div><h1>Products</h1></div>
+<div class="product-list">
+    @for(product of products; track product.id) {
+        <div class="product-item">
+            <div class="image-wrapper">
+            <img [src]="product.imageUrl || 'https://via.placeholder.com/300x300?text=' + product.productName" 
+                 [alt]="product.productName"
+                 (error)="handleImageError($event)" />
+            </div>
+            <h2>{{product.productName}}</h2>
+            <p>{{product.price | currency:'USD'}}</p>
+            <p>{{product.description}}</p>
+        </div>
+
+    }
+
+
+</div>
