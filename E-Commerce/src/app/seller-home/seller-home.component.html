@@ -11,6 +11,7 @@
             <h2>{{product.productName}}</h2>
             <p>{{product.price | currency:'USD'}}</p>
             <p>{{product.description}}</p>
+            <button (click)="viewProduct(product.id)">View</button>
         </div>
 
     }

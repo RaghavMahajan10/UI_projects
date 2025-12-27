@@ -1,0 +1,194 @@
+{
+  "users": [
+    {
+      "id": "7569",
+      "name": "Raghav",
+      "email": "raghavhax01@gmail.com",
+      "password": "Test@135",
+      "repassword": "Test@135"
+    },
+    {
+      "id": "eaeb",
+      "name": "Raghav Mahajan",
+      "email": "raghavm155@gmail.com",
+      "password": "Test@135",
+      "repassword": "Test@135"
+    },
+    {
+      "id": "e2fb",
+      "name": "Raghav Mahajan",
+      "email": "raghavm155@gmail.com",
+      "password": "Test@135",
+      "repassword": "Test@135"
+    },
+    {
+      "id": "6013",
+      "name": "raghav",
+      "email": "raghavm1555@gmail.com",
+      "password": "Test@135",
+      "repassword": "Test@135"
+    }
+  ],
+  "products": [
+    {
+      "id": "e001",
+      "productName": "Classic Handbag",
+      "category": "Female",
+      "price": "45",
+      "description": "Elegant classic handbag for daily use",
+      "imageUrl": "assets/uploads/product1.png"
+    },
+    {
+      "id": "e002",
+      "productName": "Leather Wallet",
+      "category": "Male",
+      "price": "25",
+      "description": "Premium leather wallet with multiple slots",
+      "imageUrl": "assets/uploads/product2.png"
+    },
+    {
+      "id": "e003",
+      "productName": "Running Shoes",
+      "category": "Unisex",
+      "price": "70",
+      "description": "Comfortable running shoes for all terrains",
+      "imageUrl": "assets/uploads/product3.png"
+    },
+    {
+      "id": "e004",
+      "productName": "Summer Dress",
+      "category": "Female",
+      "price": "35",
+      "description": "Lightweight summer dress with floral print",
+      "imageUrl": "assets/uploads/product4.png"
+    },
+    {
+      "id": "e005",
+      "productName": "Denim Jacket",
+      "category": "Male",
+      "price": "60",
+      "description": "Stylish denim jacket for casual wear",
+      "imageUrl": "assets/uploads/product5.png"
+    },
+    {
+      "id": "e006",
+      "productName": "Sports Watch",
+      "category": "Unisex",
+      "price": "90",
+      "description": "Water-resistant sports watch",
+      "imageUrl": "assets/uploads/product6.png"
+    },
+    {
+      "id": "e007",
+      "productName": "Office Backpack",
+      "category": "Unisex",
+      "price": "50",
+      "description": "Spacious backpack suitable for office and travel",
+      "imageUrl": "assets/uploads/product7.png"
+    },
+    {
+      "id": "e008",
+      "productName": "Sunglasses",
+      "category": "Female",
+      "price": "20",
+      "description": "UV-protected stylish sunglasses",
+      "imageUrl": "assets/uploads/product8.png"
+    },
+    {
+      "id": "e009",
+      "productName": "Casual Sneakers",
+      "category": "Male",
+      "price": "55",
+      "description": "Everyday casual sneakers",
+      "imageUrl": "assets/uploads/product9.png"
+    },
+    {
+      "id": "e010",
+      "productName": "Formal Shirt",
+      "category": "Male",
+      "price": "30",
+      "description": "Slim-fit formal shirt",
+      "imageUrl": "assets/uploads/product10.png"
+    },
+    {
+      "id": "e011",
+      "productName": "Makeup Kit",
+      "category": "Female",
+      "price": "40",
+      "description": "Complete makeup kit for daily use",
+      "imageUrl": "assets/uploads/product11.png"
+    },
+    {
+      "id": "e012",
+      "productName": "Yoga Mat",
+      "category": "Unisex",
+      "price": "18",
+      "description": "Non-slip yoga mat",
+      "imageUrl": "assets/uploads/product12.png"
+    },
+    {
+      "id": "e013",
+      "productName": "Perfume",
+      "category": "Female",
+      "price": "65",
+      "description": "Long-lasting floral fragrance",
+      "imageUrl": "assets/uploads/product13.png"
+    },
+    {
+      "id": "e014",
+      "productName": "Wireless Earbuds",
+      "category": "Unisex",
+      "price": "85",
+      "description": "Noise-cancelling wireless earbuds",
+      "imageUrl": "assets/uploads/product14.png"
+    },
+    {
+      "id": "e015",
+      "productName": "Fitness T-Shirt",
+      "category": "Male",
+      "price": "22",
+      "description": "Breathable fitness t-shirt",
+      "imageUrl": "assets/uploads/product15.png"
+    },
+    {
+      "id": "e016",
+      "productName": "Heels Sandals",
+      "category": "Female",
+      "price": "48",
+      "description": "Comfortable heels for parties",
+      "imageUrl": "assets/uploads/product16.png"
+    },
+    {
+      "id": "e017",
+      "productName": "Laptop Sleeve",
+      "category": "Unisex",
+      "price": "27",
+      "description": "Protective laptop sleeve",
+      "imageUrl": "assets/uploads/product17.png"
+    },
+    {
+      "id": "e018",
+      "productName": "Winter Scarf",
+      "category": "Female",
+      "price": "15",
+      "description": "Soft woolen winter scarf",
+      "imageUrl": "assets/uploads/product18.png"
+    },
+    {
+      "id": "e019",
+      "productName": "Travel Duffel Bag",
+      "category": "Male",
+      "price": "75",
+      "description": "Large capacity travel duffel bag",
+      "imageUrl": "assets/uploads/product19.png"
+    },
+    {
+      "id": "e020",
+      "productName": "Smart Bracelet",
+      "category": "Unisex",
+      "price": "55",
+      "description": "Fitness tracking smart bracelet",
+      "imageUrl": "assets/uploads/product20.png"
+    }
+  ]
+}

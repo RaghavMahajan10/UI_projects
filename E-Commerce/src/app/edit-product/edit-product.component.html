@@ -1,0 +1,16 @@
+<div>
+    <h1>{{products[0]?.productName}}</h1>
+</div>
+<div class="container">
+<div class="image-container">
+    <img [src]="products[0]?.imageUrl" [alt]="products[0]?.productName"/>
+</div>
+<div class="body-container">
+    <h2>{{products[0]?.productName}}</h2>
+    <p>{{products[0]?.price | currency:'USD'}}</p>
+    <p>{{products[0]?.description}}</p>
+    <button (click)="EditProduct()">Edit Product</button>
+    <button (click)="DeleteProduct()">Delete Product</button>
+</div>
+
+</div>

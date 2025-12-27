@@ -34,3 +34,17 @@
   object-fit: cover;          /* 🔑 KEY LINE */
   object-position: center;
 }
+
+.product-item button{
+ 
+  color:white;
+  background-color: blueviolet;
+  font-size: 25px;
+  width: 40%;
+  padding: 5px 5px;
+}
+
+.product-item button:hover{
+  background-color: red;
+  cursor: pointer;
+} 
