@@ -6,6 +6,7 @@ import { SellerLoginComponent } from './seller-login/seller-login.component';
 import { sellingAuthGuard } from './route-guards';
 import { AddProductComponent } from './add-product/add-product.component';
 import { EditProductComponent } from './edit-product/edit-product.component';
+import { ProductEditComponent } from './product-edit/product-edit.component';
 
 export const routes: Routes = [
     {path:'',redirectTo:'home',pathMatch:'full'},
@@ -14,4 +15,5 @@ export const routes: Routes = [
     {path:'seller-home',component:SellerHomeComponent,canActivate:[sellingAuthGuard]},
     {path:'add-product',component:AddProductComponent,canActivate:[sellingAuthGuard]},
     {path:'product/:id',component:EditProductComponent,canActivate:[sellingAuthGuard]},
+    {path:'edit-product/:id',component:ProductEditComponent,canActivate:[sellingAuthGuard]}
 ];

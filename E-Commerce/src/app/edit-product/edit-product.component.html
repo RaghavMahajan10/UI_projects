@@ -9,7 +9,7 @@
     <h2>{{products[0]?.productName}}</h2>
     <p>{{products[0]?.price | currency:'USD'}}</p>
     <p>{{products[0]?.description}}</p>
-    <button (click)="EditProduct()">Edit Product</button>
+    <button (click)="EditProduct(products[0]?.id)">Edit Product</button>
     <button (click)="DeleteProduct()">Delete Product</button>
 </div>
 

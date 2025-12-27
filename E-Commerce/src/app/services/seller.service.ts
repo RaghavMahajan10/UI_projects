@@ -73,11 +73,15 @@ export class SellerService {
     return this.http.get<product[]>('http://localhost:3000/products');
   }
 
-  getProductById(id:string){
+  getProductById(id:string|null|undefined){
     return this.http.get<product>(`http://localhost:3000/products/${id}`);
   }
 
   deleteProduct(id:string){
     return this.http.delete(`http://localhost:3000/products/${id}`);
+  }
+  editProduct(data:product, id:string|null|undefined){
+    console.log(id);
+    return this.http.put<product>(`http://localhost:3000/products/${id}`,data);
   }
 }

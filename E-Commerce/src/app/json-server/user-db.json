@@ -31,12 +31,12 @@
   ],
   "products": [
     {
-      "id": "e001",
       "productName": "Classic Handbag",
       "category": "Female",
       "price": "45",
       "description": "Elegant classic handbag for daily use",
-      "imageUrl": "assets/uploads/product1.png"
+      "imageUrl": "assets/uploads/product1.png",
+      "id": "e001"
     },
     {
       "id": "e002",
@@ -47,12 +47,12 @@
       "imageUrl": "assets/uploads/product2.png"
     },
     {
-      "id": "e003",
-      "productName": "Running Shoes",
+      "productName": "Running Shoes 123",
       "category": "Unisex",
       "price": "70",
       "description": "Comfortable running shoes for all terrains",
-      "imageUrl": "assets/uploads/product3.png"
+      "imageUrl": "assets/uploads/product3.png",
+      "id": "e003"
     },
     {
       "id": "e004",
