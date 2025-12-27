@@ -19,7 +19,6 @@ export class SellerHomeComponent {
       res.forEach(element =>{
         this.products.push(element);
       });
-      console.log(this.products);
     }); 
   }
 

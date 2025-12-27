@@ -1,9 +1,10 @@
-<div><h1>Products</h1></div>
+<div><h1 #deferLoad>Products</h1></div>
+@defer(on viewport(deferLoad)){
 <div class="product-list">
     @for(product of products; track product.id) {
         <div class="product-item">
             <div class="image-wrapper">
-            <img [src]="product.imageUrl || 'https://via.placeholder.com/300x300?text=' + product.productName" 
+            <img [src]="product.imageUrl" 
                  [alt]="product.productName"
                  (error)="handleImageError($event)" />
             </div>
@@ -14,5 +15,5 @@
 
     }
 
-
 </div>
+}
