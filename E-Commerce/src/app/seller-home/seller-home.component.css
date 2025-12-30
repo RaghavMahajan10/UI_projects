@@ -13,6 +13,8 @@
   height: auto;
   box-shadow: 10px 10px 5px #e0e0e0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .product-item img {
   max-width: 100%;
@@ -40,11 +42,38 @@
   color:white;
   background-color: blueviolet;
   font-size: 25px;
-  width: 40%;
+  width: 50%;
+  margin-left: 50px;
   padding: 5px 5px;
+  margin-top: auto;
 }
 
 .product-item button:hover{
   background-color: red;
   cursor: pointer;
 } 
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination button{
+  padding: 10px 20px;
+  background-color: blueviolet;
+  color: white;
+  margin-left: 10px;
+  border: none;
+  border-radius: 4px;
+}
+
+.pagination button:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}

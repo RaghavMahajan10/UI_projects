@@ -1,1 +1,20 @@
-<p>home works!</p>
+<div><h1>Products</h1></div>
+<div class="main-container">
+@for(product of productsSlice(); track product.id) {
+    <div class="product-card">
+        <div class="image-container">
+            <img [src]="product.imageUrl" 
+                 [alt]="product.productName"
+                />
+        </div>
+        <h2>{{product.productName}}</h2>
+        <p>{{product.price | currency:'USD'}}</p>
+        <p>{{product.description}}</p>
+        <button (click)="addToCart(product.id)">Add to Cart</button>
+    </div>
+}
+</div>
+<div class="pagination">
+    <button (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
+    <button (click)="nextPage()" [disabled]="(currentPage * pageSize) >= products.length">Next</button>
+</div>

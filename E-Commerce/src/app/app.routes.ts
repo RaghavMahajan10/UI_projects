@@ -10,6 +10,7 @@ import { ProductEditComponent } from './product-edit/product-edit.component';
 
 export const routes: Routes = [
     {path:'',redirectTo:'home',pathMatch:'full'},
+    {path:'home',component:HomeComponent},
     {path:'seller-auth',component:SellingAuthComponent},
     {path:'seller-login',component:SellerLoginComponent},
     {path:'seller-home',component:SellerHomeComponent,canActivate:[sellingAuthGuard]},

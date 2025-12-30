@@ -14,6 +14,12 @@ import { Router } from '@angular/router';
 export class SellerHomeComponent {
   sellerService = inject(SellerService);
   products:product[] = [];
+  pageSize = 8;
+  currentPage = 1;
+
+  pageslice(){
+    return this.products.slice((this.currentPage - 1)* this.pageSize, this.currentPage * this.pageSize);
+  }
 
   router = inject(Router);
 
@@ -36,4 +42,12 @@ export class SellerHomeComponent {
   deleteProduct(id:string|any|undefined){
 
   }
+  previousPage(){
+    this.currentPage--;
+  }
+  nextPage(){
+    this.currentPage++;
+  }
+
+
 }

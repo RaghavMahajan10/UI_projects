@@ -1,7 +1,6 @@
 <div><h1 #deferLoad>Products</h1></div>
-@defer(on viewport(deferLoad)){
 <div class="product-list">
-    @for(product of products; track product.id) {
+    @for(product of pageslice(); track product.id) {
         <div class="product-item">
             <div class="image-wrapper">
             <img [src]="product.imageUrl" 
@@ -17,4 +16,7 @@
     }
 
 </div>
-}
+<div class="pagination">
+    <button (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
+    <button (click)="nextPage()" [disabled]="(currentPage * pageSize) >= products.length">Next</button>
+</div>
